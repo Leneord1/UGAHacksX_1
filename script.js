@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const GEMINI_API_KEY = "AIzaSyAYaBNbGaO8Kp9WxSQx2CGPcoiTEV2GnDc";
+const GEMINI_API_KEY = "";
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 let questions = [];
