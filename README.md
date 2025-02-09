@@ -22,6 +22,8 @@ One problem we faced was getting the AI to work with our program and the JS file
 
 We found the documentation for our systems that allowed us to work through said concerns.  We decided to fix on our issue by only having one person work on the application at a given moment with the other team members assisting by finding the proper documentation.
 
+We found that we need both systems to be in the same directory to work.  
+
 ## Tools used:
 
 - VSCode
