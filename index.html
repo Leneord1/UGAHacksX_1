@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        #feedback {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Question</h1>
+    <div id="question">Please wait, loading questions...</div>
+    <div id="options"></div>
+    <div id="feedback"></div>
+    <button id="nextButton" onclick="nextQuestion()" disabled>Next</button>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+    <!-- Link to your JavaScript file -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
